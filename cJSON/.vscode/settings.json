@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "devcfg.h": "c",
+        "ghead.h": "c",
+        "cjson_op.h": "c",
+        "gstruct.h": "c",
+        "gshm.h": "c",
+        "gtypedef.h": "c",
+        "syslog.h": "c",
+        "shm.h": "c",
+        "msg.h": "c"
+    }
+}

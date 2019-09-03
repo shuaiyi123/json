@@ -1,0 +1,39 @@
+{
+	"Tag":	"串口模块",
+	"FV":	"1.0.1",
+	"Type":	1,
+	"KG":	0,
+	"COMN":	[{
+			"Name":	"WIFI001",
+			"Mode":	0,
+			"Addr":	1,
+			"BaudRate":	115200,
+			"dataLen":	8,
+			"stopLen":	1,
+			"parity":	0
+		}, {
+			"Name":	"HMI",
+			"Mode":	0,
+			"Addr":	2,
+			"BaudRate":	115200,
+			"dataLen":	8,
+			"stopLen":	1,
+			"parity":	0
+		}, {
+			"Name":	"",
+			"Mode":	0,
+			"Addr":	0,
+			"BaudRate":	0,
+			"dataLen":	0,
+			"stopLen":	0,
+			"parity":	0
+		}, {
+			"Name":	"",
+			"Mode":	0,
+			"Addr":	0,
+			"BaudRate":	0,
+			"dataLen":	0,
+			"stopLen":	0,
+			"parity":	0
+		}]
+}
