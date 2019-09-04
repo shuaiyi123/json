@@ -20,7 +20,7 @@
 			"stopLen":	1,
 			"parity":	0
 		}, {
-			"Name":	"",
+			"Name":	"4G",
 			"Mode":	0,
 			"Addr":	0,
 			"BaudRate":	0,
@@ -28,7 +28,7 @@
 			"stopLen":	0,
 			"parity":	0
 		}, {
-			"Name":	"",
+			"Name":	"COM",
 			"Mode":	0,
 			"Addr":	0,
 			"BaudRate":	0,

@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-09-01 18:36:16
- * @LastEditTime: 2019-09-03 02:34:57
+ * @LastEditTime: 2019-09-03 06:44:38
  * @LastEditors: Please set LastEditors
  */
 #include <semaphore.h>
@@ -137,7 +137,7 @@ int main(int argc, char *argv[])
 
     //等待json文件解析完成
     sem_wait(semId);
-
+  logMsg(logInfo,"SETCFG文件版本号：%s",tol->gtsetcfg.fv);
     //修改devcfg.josn参数，发送相应的信号量,以同步到json文件
     tol->gtDEV.YC_num=12;
     sem_post(devId);
